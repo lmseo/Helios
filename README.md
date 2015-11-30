@@ -1,1 +1,2 @@
-# Helios is a Storefront child theme
+# Helios
+Helios is a Storefront child theme
