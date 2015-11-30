@@ -1,5 +1,5 @@
 {
-  "name": "LMSEO",
+  "name": "Helios",
   "version": "0.1.0",
   "dependencies": {
     "angular": "~1.4.3",
@@ -19,14 +19,22 @@
   "authors": [
     "Luis <luis@lmseo.com>"
   ],
-  "description": "LMSEO website",
+  "description": "Helios is Storefront child theme",
   "license": "MIT",
-  "homepage": "http://www.lmseo.com",
+  "homepage": "http://www.lmseo.com/themes/helios/",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Helios",
+    "Storefront",
+    "Woocommerce"
+  ],
+  "private": true
 }
