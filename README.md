@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foundation Compass Template
 
 The easiest way to get started with Foundation + Compass.
@@ -27,3 +28,7 @@ If you'd like to upgrade to a newer version of Foundation down the road just run
 ```bash
 bower update
 ```
+=======
+# Helios
+Helios is a Storefront child theme
+>>>>>>> 1db00ece0c369f558b0c604b4cb3351fd828a95a
