@@ -7,26 +7,36 @@ $out.='<a class="anchor" id="contact"></a><section class="contact">
    <hr>
    </div>
     <div class="large-6 columns">
-      <label>First Name
-        <input type="text" placeholder="First Name">
-      </label>
+        <div class="wrap-label">
+           <label for="name">First Name</label>
+           <i class="fa fa-pencil fa-3x iconicfill-pen-alt2"></i>
+        </div>
+        <input type="text" id="name" placeholder="First Name">
     </div>
     <div class="large-6 columns">
-      <label>Last Name
-        <input type="text" placeholder="Last Name">
-      </label>
+      <div class="wrap-label">
+        <label for="lname">Last Name </label>
+        <i class="fa fa-pencil fa-3x iconicfill-pen-alt2"></i>
+      </div>
+        <input type="text" placeholder="Last Name" id="lname">
+      
     </div>
   </div>
   <div class="row">
     <div class="large-6 columns">
-      <label>Email
-        <input type="text" placeholder="example@email.com">
-      </label>
+      <div class="wrap-label">
+        <label for="email">Email</label>
+        <i class="fa fa-pencil fa-3x iconicfill-pen-alt2"></i>
+      </div>
+      <input type="text" placeholder="example@email.com" id="email">
     </div>
     <div class="large-6 columns">
       <div class="row collapse">
-        <label>Phone Number</label>
-          <input type="text" placeholder="xxx-xxx-xxxx">
+        <div class="wrap-label">
+          <label for="pnumber">Phone Number</label>
+          <i class="fa fa-pencil fa-3x iconicfill-pen-alt2"></i>
+        </div>
+          <input type="text" placeholder="xxx-xxx-xxxx" id="pnumber">
       </div>
     </div>
   </div>
@@ -38,9 +48,10 @@ $out.='<a class="anchor" id="contact"></a><section class="contact">
     </div>
   </div>
    <div class="row">
-    <div class="large-12 columns">
-         <input type="submit" value="Submit" class="home-button home-contact-submit">
-    </div>
+
+      <div class="more-centered-button-wrapper">
+         <button type="submit" class="home-button xwide-button grey-button">Submit</button>
+      </div>
   </div>
 </form></section>';
 ?>

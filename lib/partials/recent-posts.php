@@ -16,7 +16,7 @@ while ($the_query->have_posts()){
   $out.='<h4><a href="' . get_permalink().'">'. get_the_title() .'</a></h4>
       <hr>
        
-      <p data-equalizer-watch>'. get_the_excerpt(__('(more…)')).'</p>
+      <p data-equalizer-watch>'. get_the_excerpt().'</p>
      
      <p class="entry-meta">
         By <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
@@ -34,6 +34,8 @@ while ($the_query->have_posts()){
         if(is_admin_bar_showing()){
           $out.='<a class="post-edit-link" href="'.get_edit_post_link().'">(Edit)</a>';
         }
+          //$out.='<p>'. get_the_excerpt(__('(more…)')).'</p>';
+
         $out.='</p>
 
     </div>';
@@ -48,7 +50,7 @@ while ($the_query->have_posts()){
         </div>
       </div>
       <div class="more-centered-button-wrapper recent-posts-button-wrapper">
-        <a href="/services/" class="home-button recent-posts-button">More Posts</a>
+        <a href="/services/" class="home-button xlarge-button grey-button">More Posts</a>
       </div>
     </div>
    

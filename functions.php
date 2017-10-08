@@ -11,6 +11,20 @@ function modernizr_no_js($output) {
     return $output . ' class="no-js"';
 }*/
 
+/** Branding **/
+add_action('wp_head','lmseo_branding', 1);
+function lmseo_branding(){
+	if ( ( is_home() || is_front_page() ) && is_page() ) {
+		echo '
+<!--
+Design + Development by                                   
+LMSEO © '. date("Y")  .'                     
+All Rights Reserved.               
+www.lmseo.com
+
+-->';
+	}
+}
 /*add_action( 'genesis_meta', 'sp_viewport_meta_tag' );
 function sp_viewport_meta_tag() {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1"/>';
@@ -27,15 +41,19 @@ require_once(  get_stylesheet_directory(  ) . '/include/cpt/zp_cpt.php'   );
 require_once (  get_stylesheet_directory(  ) . '/include/theme_settings.php'   );
 require_once (  get_stylesheet_directory(  ) . '/include/theme_functions.php'   );
 
+/**performance support*/
+require_once (  get_stylesheet_directory(  ) . '/include/performance/performance.php');
+
 /* Include Update Notice File  */
 require_once(  get_stylesheet_directory(  )  .'/include/updater/theme_updater.php'   );
 
 /** Theme Widgets */
 require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-flickr.php'   );
 require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-address.php'   );
-require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-social_icons.php'   );
+//require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-social_icons.php'   );
 require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-latest_portfolio.php'   );
 require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-cta-after-content.php'   );
+require_once(  get_stylesheet_directory(  )  .'/include/widgets/widget-lmseo-recent-comments.php'   );
 
 /** Theme Shortcode */
 require_once(  get_stylesheet_directory(  ) . '/include/shortcodes/shortcode.php'   );
@@ -51,6 +69,30 @@ genesis_unregister_layout( 'content-sidebar' );
 /** Unregister Sidebar */
 unregister_sidebar(  'header-right'  );
 unregister_sidebar( 'sidebar-alt' );
+
+/*Disable emoticons
+add_action( 'wp_head',             'print_emoji_detection_script',     7    );
+*/
+function disable_wp_emojicons() {
+
+  // all actions related to emojis
+  remove_action( 'admin_print_styles', 'print_emoji_styles' );
+  remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+  remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+  remove_action( 'wp_print_styles', 'print_emoji_styles' );
+  remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+  remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+  remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+
+  // filter to remove TinyMCE emojis
+  //add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
+}
+add_action( 'init', 'disable_wp_emojicons' );
+
+
+global $wpseo_json_ld;
+remove_action( 'wpseo_head', array( $wpseo_json_ld, 'json_ld' ), 90 );
+
 
 /** Add Viewport meta tag for mobile browsers */
 add_action( 'genesis_meta', 'streamline_add_viewport_meta_tag' );
@@ -75,16 +117,20 @@ function lmseo_theme_js(   ) {
 	wp_register_script('jquery-migrate', 'https://code.jquery.com/jquery-migrate-1.2.1.min.js', array('jquery'), '1.2.1',false); // require jquery, as loaded above
 	wp_register_script( 'modernizr', 'http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', array(), '2.6.2', false );
 	wp_register_script( 'foundation',get_stylesheet_directory_uri(  ) . '/bower_components/foundation/js/foundation.min.js',array( 'jquery' ), '5.5.2', true );
+	//wp_register_script( 'foundation-topbar',get_stylesheet_directory_uri(  ) . '/bower_components/foundation/js/foundation/foundation.topbar.js',array( 'jquery' ), '5.5.2', true );	
 	wp_register_script( 'foundation_app', get_stylesheet_directory_uri(  ) . '/lib/js/app.js',array( 'foundation' ), '1.0', true );
 	wp_register_script( 'blueimp_helper',get_stylesheet_directory_uri(  ) . '/bower_components/blueimp-gallery/js/blueimp-helper.js',array( 'jquery' ), '5.5.2', true );
 	wp_register_script( 'blueimp',get_stylesheet_directory_uri(  ) . '/bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js',array( 'jquery' ), '5.5.2', true );
-	
-  /*  <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/lib/js/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/lib/js/app.js"></script>
-    <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/bower_components/blueimp-gallery/js/blueimp-helper.js"></script>
-    <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js">
-    </script>*/
-    
+	wp_register_script( 'bootstrat',get_stylesheet_directory_uri(  ) . '/bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js',array( 'jquery' ), '5.5.2', true );
+	// necesesary for form animations
+	wp_register_script( 'transit',get_stylesheet_directory_uri(  ) . '/bower_components/jquery.transit/jquery.transit.js',array( 'jquery' ), '0.9.12', true );
+	wp_register_script( 'scrollto',get_stylesheet_directory_uri(  ) . '/bower_components/jquery.scrollTo/jquery.scrollTo.min.js',array( 'jquery' ), '2.1.2', true );
+	//wp_register_script( 'jquery-easing',get_stylesheet_directory_uri(  ) . '/bower_components/jquery.easing/js/jquery.easing.min.js',array( 'jquery' ), '1.3', true );
+	//wp_register_script( 'jquery-mousewheel',get_stylesheet_directory_uri(  ) . '/bower_components/jquery-mousewheel/jquery.mousewheel.min.js',array( 'jquery' ), '3.1.13', true );
+	//wp_register_script( 'jquery-circularcontentcarousel',get_stylesheet_directory_uri(  ) . '/bower_components/circularcontentcarousel/js/jquery.contentcarousel.js',array( 'jquery' ), '1.0', true );
+	wp_register_script( 'index-main',get_stylesheet_directory_uri(  ) . '/bin/js/index/main.min.js',array(), '1.0', true );
+        wp_register_script( 'loadcss',get_stylesheet_directory_uri(  ) . '/bower_components/loadcss/src/loadCSS.min.js',array(), '1.0', true );
+        wp_register_script( 'onloadcss',get_stylesheet_directory_uri(  ) . '/bower_components/loadcss/src/onloadCSS.min.js',array(), '1.0', true );
 }
 
 add_action(  'wp_enqueue_scripts', 'lmseo_enque_scripts'  );
@@ -92,14 +138,21 @@ function lmseo_enque_scripts(   ) {
 	wp_enqueue_script(  'jquery');
 	wp_enqueue_script(  'jquery-migrate');
 	wp_enqueue_script(  'modernizr');
-	wp_enqueue_script(  'foundation');
-	wp_enqueue_script(  'foundation_app');
+	
+	//wp_enqueue_script(  'foundation-topbar');
+	
 	wp_enqueue_script(  'blueimp_helper');
 	wp_enqueue_script(  'blueimp');
+	wp_enqueue_script(  'transit');
+	wp_enqueue_script(  'scrollto');
+	wp_enqueue_script(  'foundation');
+	wp_enqueue_script(  'foundation_app');
+
 	
 }
+
 //* Remove the site title
-remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
+//remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
 //* Remove the site description
 remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
@@ -172,7 +225,7 @@ add_theme_support( 'genesis-structural-wraps', array( 'header', 'nav', 'subnav',
 /* row class as structural wrap*/
 add_action( 'genesis_before_content_sidebar_wrap', 'opening_header_divs', 9 );
 function opening_header_divs() {
-	if ( is_front_page() or is_home()) {
+	if ( is_front_page()) {
 		
 	} else {
 		echo '<div class="row">';
@@ -182,7 +235,7 @@ function opening_header_divs() {
 
 add_action( 'genesis_after_content_sidebar_wrap', 'closing_header_divs' );
 function closing_header_divs() {
-	if(is_home() or is_front_page()){
+	if( is_front_page()){
 		
 	}else {
 		echo '</div>';
@@ -195,7 +248,7 @@ function opening_main_divs() {
 	if ( is_front_page() or is_home()) {
 		
 	} else {
-		echo '<div class="row"><div class="large-9 columns">';
+		echo '<div class="row"><div class="large-12 columns">';
 	  //everything else
 	}
 }
@@ -216,7 +269,7 @@ function opening_aside_divs() {
 	if ( is_front_page() or is_home()) {
 		
 	} else {
-		echo '</div><div class="large-3 columns">';
+		echo '</div><div class="large-12 columns">';
 	  //everything else
 	}
 }
@@ -246,7 +299,7 @@ unregister_sidebar( 'sidebar-alt' );
 add_custom_background();
 
 /** Add support for custom header */
-add_theme_support( 'genesis-custom-header', array( 'width' => 960, 'height' => 120 ) );
+//add_theme_support( 'genesis-custom-header', array( 'width' => 960, 'height' => 120 ) );
 
 /** Add newsletter section after header */
 //add_action( 'genesis_before_content_sidebar_wrap', 'streamline_newsletter' );
@@ -372,7 +425,7 @@ function streamline_after_post() {
 }
 
 /** Add Olark to website */
-add_action( 'wp_footer','lmseo_olark' );
+add_action( 'wp_footer','lmseo_olark', 1);
 function lmseo_olark(){
 	?>
 	<!-- begin olark code -->
@@ -428,3 +481,251 @@ genesis_register_sidebar( array(
 	'description'	=> __( 'This is the after post section.', 'streamline' ),
 ) );
 add_theme_support( 'genesis-connect-woocommerce' );
+
+
+/*
+ * Add custom primary nav
+ */
+function register_my_menu() {
+  register_nav_menu('top-bar',__( 'Top Bar' ));
+}
+add_action( 'init', 'register_my_menu' );
+
+remove_action( 'genesis_after_header', 'genesis_do_nav' );
+//add_action( 'genesis_header', 'genesis_do_nav' );
+//remove_action( 'genesis_header', 'genesis_do_nav' );
+//add_action( 'genesis_header', 'lmseo_primary_nav' );
+function lmseo_primary_nav(){
+	$defaults = array(
+		'theme_location'  => 'primary',
+		'menu'            => 'main',
+		'container'       => '',
+		'container_class' => '',
+		'container_id'    => '',
+		'menu_class'      => 'primary-links',
+		'menu_id'         => 'primary-links',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'items_wrap'      => '',
+		'depth'           => 0,
+		'walker'          => ''
+	);
+
+	wp_nav_menu( $defaults );
+}
+
+/**
+ * HTML5 OPEN HEADER
+*/
+/*remove_action('genesis_header','genesis_header_markup_open', 5);
+add_action('genesis_header','html5_open_header', 5);
+	function html5_open_header() {
+		echo '<header class="sticky"><nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large"><div class="name"></div><section class="top-bar-section">
+  ';
+		//require_once ( get_stylesheet_directory() . '/lib/partials/top-bar.php' );
+		//echo $out;
+		///genesis_structural_wrap( 'header', 'open' );
+}*/
+
+/**
+ * HTML5 CLOSE HEADER
+*/
+/*remove_action('genesis_header','genesis_header_markup_close', 15);
+add_action('genesis_header','html5_close_header', 15);
+	function html5_close_header() {
+		//genesis_structural_wrap( 'header', 'close' );
+		echo '</section><div class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></div>';
+    	echo'</nav></header><!--end #header-->';
+ }*/
+/**
+ * HTML5 NAVIGATION
+*/
+/*function html5_nav($nav_out, $nav){
+		$nav_out = sprintf( '<nav id="nav" data-role="navbar">%2$s%1$s%3$s</nav>', $nav, genesis_structural_wrap( 'nav', 'open', 0 ),genesis_structural_wrap( 'nav', 'close', 0 ) );
+		return $nav_out;
+}
+add_filter( 'genesis_do_nav', 'html5_nav', 10, 2 );*/
+remove_action('genesis_site_title', 'genesis_seo_site_title');
+add_action( 'genesis_site_title', 'lmseo_seo_site_title' );
+
+/**
+ * Echo the site title into the header.
+ *
+ * Depending on the SEO option set by the user, this will either be wrapped in an `h1` or `p` element.
+ *
+ * Applies the `genesis_seo_title` filter before echoing.
+ *
+ * @since 1.1.0
+ *
+ * @uses genesis_get_seo_option() Get SEO setting value.
+ * @uses genesis_html5()          Check or HTML5 support.
+ */
+function lmseo_seo_site_title(){
+
+	//* Set what goes inside the wrapping tags
+	$inside = sprintf( '<a href="%s" class="logo">%s</a>', trailingslashit( home_url() ), get_bloginfo( 'name' ) );
+
+
+
+	//* Determine which wrapping tags to use
+	$wrap = genesis_is_root_page() && 'title' === genesis_get_seo_option( 'home_h1_on' ) ? 'h1' : 'p';
+
+	//* A little fallback, in case an SEO plugin is active
+	$wrap = genesis_is_root_page() && ! genesis_get_seo_option( 'home_h1_on' ) ? 'h1' : $wrap;
+
+	//* Wrap homepage site title in p tags if static front page
+	$wrap = is_front_page() && ! is_home() ? 'h1' : $wrap;
+
+	//* And finally, $wrap in h1 if HTML5 & semantic headings enabled
+	$wrap = genesis_html5() && genesis_get_seo_option( 'semantic_headings' ) ? 'h1' : $wrap;
+
+	/**
+	 * Site title wrapping element
+	 *
+	 * The wrapping element for the site title.
+	 *
+	 * @since 2.2.3
+	 *
+	 * @param string $wrap The wrapping element (h1, h2, p, etc.).
+	 */
+	$wrap = apply_filters( 'genesis_site_title_wrap', $wrap );
+
+	//* Build the title
+	$title  = genesis_html5() ? sprintf( "<{$wrap} %s>", genesis_attr( 'site-title' ) ) : sprintf( '<%s id="title">%s</%s>', $wrap, $inside, $wrap );
+	$title .= genesis_html5() ? "{$inside}</{$wrap}>" : '';
+
+	//* Echo (filtered)
+	echo apply_filters( 'genesis_seo_title', $title, $inside, $wrap );
+}
+
+//remove initial header functions
+remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
+remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
+remove_action( 'genesis_header', 'genesis_do_header' );
+
+//add in the new header markup - prefix the function name - here sm_ is used
+add_action( 'genesis_header', 'lmseo_genesis_header_markup_open', 5 );
+add_action( 'genesis_header', 'lmseo_genesis_header_markup_close', 15 );
+add_action( 'genesis_header', 'lmseo_genesis_do_header' );
+//New Header functions
+function lmseo_genesis_header_markup_open() {
+	genesis_markup( array(
+		'html5'   => '<header class="sticky" %s><nav class="top-bar" data-topbar="" role="navigation">',
+		'xhtml'   => '<div id="header">',
+		'context' => 'site-header',
+	) );
+	//echo '<div class="header-ghost"></div>';
+	genesis_structural_wrap( 'header' );
+}
+function lmseo_genesis_header_markup_close() {
+	genesis_structural_wrap( 'header', 'close' );
+	genesis_markup( array(
+		'html5' => '</nav></header>',
+		'xhtml' => '</div>',
+	) );
+}
+function lmseo_genesis_do_header() {
+	global $wp_registered_sidebars;
+	genesis_markup( array(
+		'html5'   => '<ul %s><li class="name">',
+		'xhtml'   => '<ul class="title-area"><li class="name">',
+		'context' => 'title-area',
+	) );
+	do_action( 'genesis_site_title' );
+	do_action( 'genesis_site_description' );
+	genesis_markup( array(
+			'html5' => '<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li></li></ul>',
+			'xhtml' => '<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li></li></ul>',
+		) );
+
+	//wp_nav_menu( $defaults );
+	genesis_markup( array(
+		'html5'   => '<section %s>',
+		'xhtml'   => '<div>',
+		'context' => 'top-bar-section',
+	) );
+	wp_nav_menu(
+		array(
+		'theme_location'  => 'top-bar',
+		'menu'            => 'main',
+		'container'       => '',
+		'container_class' => 'top-bar-section',
+		'container_id'    => '',
+		'menu_class'      => 'primary-links',
+		'menu_id'         => 'primary-links',
+		'echo'            => true,
+		'fallback_cb'     => 'wp_page_menu',
+		'before'          => '',
+		'after'           => '',
+		'link_before'     => '',
+		'link_after'      => '',
+		'depth'           => 0,
+		'walker'          => new My_Walker_Nav_Menu()
+		)
+	);
+		echo '<ul class="right topbar-more-info-nav hide-for-medium-down">
+	<li><a href="tel:+12133210784">213.321.0784</a></li>
+	<li class="has-form top-form"><div class="row collapse"><div class="large-8 small-9 columns"><input type="text" placeholder="Search LMSEO" class="radius-left"></div><div class="large-4 small-3 columns"><a href="/" class="top-button radius-right">Search</a></div></div>
+	</li>
+</ul>';
+	genesis_markup( array(
+		'html5'   => '</section>',
+		'xhtml'   => '</div>',
+	) );
+
+	//echo '</div>';
+	if ( ( isset( $wp_registered_sidebars['header-right'] ) && is_active_sidebar( 'header-right' ) ) || has_action( 'genesis_header_right' ) ) {
+		genesis_markup( array(
+			'html5'   => '<aside %s>',
+			'xhtml'   => '<div class="widget-area header-widget-area">',
+			'context' => 'header-widget-area',
+		) );
+			do_action( 'genesis_header_right' );
+			add_filter( 'wp_nav_menu_args', 'genesis_header_menu_args' );
+			add_filter( 'wp_nav_menu', 'genesis_header_menu_wrap' );
+			dynamic_sidebar( 'header-right' );
+			remove_filter( 'wp_nav_menu_args', 'genesis_header_menu_args' );
+			remove_filter( 'wp_nav_menu', 'genesis_header_menu_wrap' );
+		genesis_markup( array(
+			'html5' => '</aside>',
+			'xhtml' => '</div>',
+		) );
+	}
+}
+/**
+ * Add a parent CSS class for nav menu items.
+ *
+ * @param array  $items The menu items, sorted by each menu item's menu order.
+ * @return array (maybe) modified parent CSS class.
+ */
+function wpdocs_add_menu_parent_class( $items ) {
+    $parents = array();
+ 
+    // Collect menu items with parents.
+    foreach ( $items as $item ) {
+        if ( $item->menu_item_parent && $item->menu_item_parent > 0 ) {
+            $parents[] = $item->menu_item_parent;
+            $item->classes[]='hvr-buzz-out';
+        }
+    }
+ 
+    // Add class.
+    foreach ( $items as $item ) {
+        if ( in_array( $item->ID, $parents ) ) {
+            $item->classes[] = 'has-dropdown not-click';
+        }
+    }
+    return $items;
+}
+add_filter( 'wp_nav_menu_objects', 'wpdocs_add_menu_parent_class' );
+
+class My_Walker_Nav_Menu extends Walker_Nav_Menu {
+  function start_lvl(&$output, $depth = 0, $args = Array()) {
+    $indent = str_repeat("\t", $depth);
+    $output .= "\n$indent<ul class=\"dropdown\">\n";
+  }
+}

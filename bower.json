@@ -1,17 +1,10 @@
 {
-<<<<<<< HEAD
-  "name": "foundation-compass-app",
-  "version": "0.0.1",
-  "private": "true",
-  "dependencies": {
-    "foundation": "zurb/bower-foundation"
-  }
-=======
-  "name": "Helios",
+  "name": "helios",
   "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "angular": "~1.4.3",
-    "foundation-icons": "https://github.com/zurb/foundation-icons.git",
+    "foundation-icons": "*",
     "blueimp-gallery": "https://github.com/blueimp/Gallery.git#~2.15.2",
     "fastclick": ">=0.6.11",
     "FlexSlider": "~2.5.0",
@@ -22,10 +15,26 @@
     "foundation": "zurb/bower-foundation",
     "shufflejs": "~3.1.1",
     "prettyphoto": "*",
-    "quicksand": "~1.2.2"
+    "quicksand": "~1.2.2",
+    "bootstrap-sass": "~3.3.6",
+    "foundation-icon-fonts": "*",
+    "critical": "git+https://github.com/addyosmani/critical.git#~0.6.0",
+    "jquery.transit": "^0.9.12",
+    "components-font-awesome": "^4.6.3",
+    "jquery.scrollTo": "^2.1.2",
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "angular-foundation": "^0.8.0",
+    "jquery-mousewheel": "^3.1.13",
+    "fonts": "https://github.com/jongold/ohmygod/tree/master/fonts",
+    "ohmygod": "https://github.com/jongold/ohmygod.git",
+    "bxslider-4": "https://github.com/stevenwanderski/bxslider-4.git#^4.2.5",
+    "hover": "Hover#^2.0.2",
+    "loadcss": "^1.2.0",
+    "jquery-migrate": "^3.0.0",
+    "blockUI": "https://github.com/malsup/blockui.git"
   },
   "authors": [
-    "Luis <luis@lmseo.com>"
+    "Luis Piedrahita <luis@lmseo.com>"
   ],
   "description": "Helios is Storefront child theme",
   "license": "MIT",
@@ -44,6 +53,7 @@
     "Storefront",
     "Woocommerce"
   ],
-  "private": true
->>>>>>> 1db00ece0c369f558b0c604b4cb3351fd828a95a
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
+  }
 }

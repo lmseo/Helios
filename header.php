@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * Genesis Framework.
@@ -25,16 +27,26 @@ genesis_markup( array(
 	'context' => 'body',
 ) );
 do_action( 'genesis_before' );
-
+?>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T3TH98"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3TH98');</script>
+<!-- End Google Tag Manager -->
+<?php
 genesis_markup( array(
 	'html5'   => '<div %s>',
 	'xhtml'   => '<div id="wrap">',
 	'context' => 'site-container',
 ) );
 
-do_action( 'genesis_before_header' );
-do_action( 'genesis_header' );
-do_action( 'genesis_after_header' );
+do_action( 'genesis_before_header');
+do_action( 'genesis_header');
+do_action( 'genesis_after_header');
 
 genesis_markup( array(
 	'html5'   => '<div %s>',

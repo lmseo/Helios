@@ -19,39 +19,11 @@ add_action( 'genesis_doctype', 'html5_do_doctype' );
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-<meta charset=<?php bloginfo( 'charset' ); ?>/>
+<meta charset="<?php bloginfo( 'charset' ); ?>" >
 <?php
 }
  
-/**
- * HTML5 OPEN HEADER
-*/
-remove_action('genesis_header','genesis_header_markup_open', 5);
-add_action('genesis_header','html5_open_header', 5);
-	function html5_open_header() {
-		echo '<header class="sticky">';
-		require_once ( get_stylesheet_directory() . '/lib/partials/top-bar.php' );
-		echo $out;
-		///genesis_structural_wrap( 'header', 'open' );
-}
 
-/**
- * HTML5 CLOSE HEADER
-*/
-remove_action('genesis_header','genesis_header_markup_close', 15);
-add_action('genesis_header','html5_close_header', 15);
-	function html5_close_header() {
-		//genesis_structural_wrap( 'header', 'close' );
-		echo '</header><!--end #header-->';
- }
- /**
- * HTML5 NAVIGATION
-*/
-function html5_nav($nav_out, $nav){
-		$nav_out = sprintf( '<nav id="nav" data-role="navbar">%2$s%1$s%3$s</nav>', $nav, genesis_structural_wrap( 'nav', 'open', 0 ),genesis_structural_wrap( 'nav', 'close', 0 ) );
-		return $nav_out;
-}
-add_filter( 'genesis_do_nav', 'html5_nav', 10, 2 );
  
 /**
  * HTML5 SUB NAVIGATION
@@ -120,9 +92,7 @@ add_action( 'genesis_after_footer', 'genesis_footer_widget_areas' );
 add_action( 'genesis_after_footer', 'foundation_js_files' );*/
 add_action( 'genesis_after_footer', 'foundation_js_files' );
  function foundation_js_files(){
-	echo '<script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/lib/js/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/lib/js/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/lib/js/app.js"></script><script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/bower_components/blueimp-gallery/js/blueimp-helper.js"></script><script src="http://' . $_SERVER['HTTP_HOST'].'/wp-content/themes/luis/bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js"></script><div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+	echo '<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <h3 class="title"></h3>
     <a class="prev">‹</a>

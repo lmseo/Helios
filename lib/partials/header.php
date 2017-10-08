@@ -1,6 +1,6 @@
 <?php
 $out .='<header class="sticky">
-  <nav class="top-bar" data-topbar>
+  <nav class="top-bar animated fadeInUp delay-300" data-topbar>
     <ul class="title-area">
       <li class="name">';
 $inside .= sprintf( '<a href="/" title="%s" class="logo">%s</a>', esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
@@ -37,7 +37,7 @@ $out .='
         </li>
       </ul>
      <ul class="right topbar-more-info-nav hide-for-medium-down">
-     <li><a href="tel:+18183966868">818.396.6868</a></li>
+     <li><a href="tel:+12133210784">213.321.0784</a></li>
         <li class="has-form top-form">
           <div class="row collapse">
             <div class="large-8 small-9 columns"><input type="text" placeholder="Find Something"></div>

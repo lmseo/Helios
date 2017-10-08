@@ -1,0 +1,819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top",
+				"top-bar"
+			],
+			[
+				"remove",
+				"remove_action"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"section",
+				"section-padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"tra",
+				"transition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/plugins/jetpack/class.jetpack.php",
+			"settings":
+			{
+				"buffer_size": 209015,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/plugins/wordpress-seo/frontend/class-json-ld.php",
+			"settings":
+			{
+				"buffer_size": 6628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "homepage-template.php",
+			"settings":
+			{
+				"buffer_size": 9188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n	\"auto_complete\":\n	{\n		\"selected_items\":\n		[\n			[\n				\"ma\",\n				\"margin-bottom: \"\n			],\n			[\n				\"margin\",\n				\"margin-left: \"\n			],\n			[\n				\"mar\",\n				\"margin-bottom: \"\n			],\n			[\n				\"min\",\n				\"min-height\"\n			],\n			[\n				\"ba\",\n				\"background-size\"\n			],\n			[\n				\"medium\",\n				\"medium-6\"\n			],\n			[\n				\"at\",\n				\"attributes\"\n			],\n			[\n				\"is\",\n				\"isset\"\n			],\n			[\n				\"bor\",\n				\"border-radius: \"\n			],\n			[\n				\"pa\",\n				\"padding: \"\n			],\n			[\n				\"borde\",\n				\"border-bottom: \"\n			],\n			[\n				\"padding-\",\n				\"padding-bottom: \"\n			],\n			[\n				\"margn\",\n				\"margin-bottom\"\n			],\n			[\n				\"tra\",\n				\"translate3d()\"\n			],\n			[\n				\"back\",\n				\"background-size\"\n			],\n			[\n				\"tran\",\n				\"translateX()\"\n			],\n			[\n				\"light\",\n				\"lighten	Sass-function\"\n			],\n			[\n				\"ob\",\n				\"object\"\n			],\n			[\n				\"lith\",\n				\"lighten	Sass-function\"\n			],\n			[\n				\"padd\",\n				\"padding-bottom: \"\n			],\n			[\n				\"ligh\",\n				\"lighten	Sass-function\"\n			],\n			[\n				\"border-radius\",\n				\"border-top-right-radius: \"\n			],\n			[\n				\"padding\",\n				\"padding: \"\n			],\n			[\n				\"inline\",\n				\"inline-block\"\n			],\n			[\n				\"font\",\n				\"font-size: \"\n			],\n			[\n				\"paddi\",\n				\"padding-top: \"\n			],\n			[\n				\"inl\",\n				\"inline-block\"\n			],\n			[\n				\"li\",\n				\"lighten	Sass-function\"\n			],\n			[\n				\"border\",\n				\"border-bottom: \"\n			],\n			[\n				\"bo\",\n				\"border-bottom: \"\n			],\n			[\n				\"in\",\n				\"inherit\"\n			],\n			[\n				\"bac\",\n				\"background-color: \"\n			],\n			[\n				\"clas\",\n				\"className\"\n			],\n			[\n				\"paddin\",\n				\"padding-left: \"\n			],\n			[\n				\"pad\",\n				\"padding-bottom: \"\n			],\n			[\n				\"print\",\n				\"print_r\"\n			],\n			[\n				\"sec\",\n				\"secondary-color\"\n			],\n			[\n				\"tex\",\n				\"text-align: \"\n			],\n			[\n				\"pri\",\n				\"primary-color\"\n			],\n			[\n				\"list\",\n				\"list-style\"\n			]\n		]\n	},\n	\"buffers\":\n	[\n		{\n			\"contents\": \"Introduction to Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4\\nFan Curves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4\\nFan Laws . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\\nFans and Air Movement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\\nAxial Flow and Centrifugal Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\\nForward and Backward Curved Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\\nForward Curved Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\\nBackward Curved Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10\\nHoused and Plenum Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\\nBelt Driven and Direct Drive Fans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\\nFan Class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14\\nFan Selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\\nPoint of Operation and Fan Blade Operating Characteristics . . . . . . . . . . . . . . . . . . . . 15\\nFan Speed and Performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\\nBanding and Narrow Width Wheels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\\nSelecting Supply Fans for Variable Speed Operation........................... 16\\nFan System Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18\\nFan Pressure and Velocity Relationship . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18\\nFan Inlet System Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\\nSpacing Of Fans at the Inlet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\\nBelt Guards . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\\nBelts and Sheaves . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21\\nFan Inlet Velocity Flow Probes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\\nCombined Inlet Losses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\\nElbows and Tees at Discharge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\\nDischarge Dampers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23\\nUnducted Discharge Losses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\\nPlenum Fan Discharge System Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\\nFan Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\\nFan Mechanical Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\\nFan Static Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\\nFan Application Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\\nHVAC System Energy Efficiency\\n\\nhttp://webservices.amazon.com/onca/xml?\\n  Service=AWSECommerceService\\n  &Operation=ItemLookup\\n  &ResponseGroup=Offers\\n  &IdType=ASIN\\n  &ItemId=B00KOKTZLQ\\n  &AssociateTag=[10038-20]\\n  &AWSAccessKeyId=[AKIAJKWEM4UARRIW5JQQ]\\n  &Timestamp=2016\\n  &Signature=[lA40ad9bSy1ndPsMz+HFfFyZ7RWsaenizwjw3F5k]\",\n			\"settings\":\n			{\n				\"buffer_size\": 4238,\n				\"line_ending\": \"Windows\",\n				\"name\": \"Introduction to Fans . . . . . . . . . . . . . . .\"\n			}\n		},\n		{\n			\"contents\": \"Searching 15103 files for \\\"order history\\\" (case sensitive)\\n\\n0 matches\",\n			\"settings\":\n			{\n				\"buffer_size\": 69,\n				\"line_ending\": \"Windows\",\n				\"name\": \"Find Results\",\n				\"scratch\": true\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/scss/bin/css/orders/history/style.scss\",\n			\"settings\":\n			{\n				\"buffer_size\": 1537,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/js/history.js\",\n			\"settings\":\n			{\n				\"buffer_size\": 6254,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/order-detail.tpl\",\n			\"settings\":\n			{\n				\"buffer_size\": 22867,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"contents\": \"Package Control Messages\\n========================\\n\\nSyntax Highlighting for Sass\\n----------------------------\\n\\n  \\n  Thank you for installing Syntax Highlighting for Sass.\\n  \\n  Here are some core features that you might want to know, for more details please check https://github.com/P233/Syntax-highlighting-for-Sass/\\n  \\n  ## Built-in Completion Packages\\n  \\n      There are 8 built-in completion packages. Pick up the package name which you are not intend to use, then add it/them into the `ignored_packages` list of your settings file. (If you know a better way to do this please please let me know.)\\n  \\n      * SHS-At-Rule\\n      * SHS-Bourbon\\n      * SHS-Bourbon-Neat\\n      * SHS-Compass-Mixins\\n      * SHS-Compass-Variables\\n      * SHS-CSS-Properties\\n      * SHS-CSS-Property-Values\\n      * SHS-Sass-Functions\\n  \\n  ## Smart Completion Rule\\n  \\n      1. Typing @-rule, ID, class, placeholder-selector, mixin name, function name, comment, and quoted content will never popup any completions.\\n      2. ** When typing property values, property name and other completions will no longer popup.\\n      3. Built-in mixin name completions will only popup directly behind `@include` or `+`.\\n      4. Built-in variable compltions will only popup when you typing variables.\\n  \\n      ** The latest version of [Emmet CSS Snippets](https://sublime.wbond.net/packages/Emmet%20Css%20Snippets) now fully supports this feature. I recommend to use it instead of the built-in properties completion package.\\n  \\n  ## Comment Tag\\n  \\n      Use `{{` and `}}` to wrap a keyword inside comment, then this keyword (comment tag) will be indexed by the Goto Symbol and Goto Definition features.\\n  \\n  \\n  \\n  -------------\\n  Enjoy coding!\\n\",\n			\"settings\":\n			{\n				\"buffer_size\": 1705,\n				\"line_ending\": \"Windows\",\n				\"name\": \"Package Control Messages\",\n				\"read_only\": true,\n				\"scratch\": true\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/header.tpl\",\n			\"settings\":\n			{\n				\"buffer_size\": 10864,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"contents\": \"<script type=\\\"text/javascript\\\">\\n					jQuery(document).ready(function(){\\n						var MBG = GoogleAnalyticEnhancedECommerce;\\n						MBG.setCurrency('USD');\\n						MBG.addProductDetailView({\\n							\\\"id\\\":10,\\n							\\\"name\\\":\\\"\\\\\\\"XPOWER P-230AT 1\\\\\\\\\\\\/5 HP Mini Air Mover with Timer & Power Outlets\\\\\\\"\\\",\\n							\\\"category\\\":\\\"\\\\\\\"centrifugal-fans\\\\\\\"\\\",\\n							\\\"brand\\\":\\\"\\\\\\\"XPOWER Manufacture, Inc.\\\\\\\"\\\",\\n							\\\"variant\\\":\\\"null\\\",\\n							\\\"type\\\":\\\"typical\\\",\\n							\\\"position\\\":\\\"0\\\",\\n							\\\"quantity\\\":1,\\n							\\\"list\\\":\\\"product\\\",\\n							\\\"url\\\":\\\"\\\",\\n							\\\"price\\\":\\\"99.00\\\"\\n						});\\n						MBG.addProductClickByHttpReferal({\\n							\\\"id\\\":10,\\n							\\\"name\\\":\\\"\\\\\\\"XPOWER P-230AT 1\\\\\\\\\\\\/5 HP Mini Air Mover with Timer & Power Outlets\\\\\\\"\\\",\\n							\\\"category\\\":\\\"\\\\\\\"centrifugal-fans\\\\\\\"\\\",\\n							\\\"brand\\\":\\\"\\\\\\\"XPOWER Manufacture,\\n							Inc.\\\\\\\"\\\",\\n							\\\"variant\\\":\\\"null\\\",\\n							\\\"type\\\":\\\"typical\\\",\\n							\\\"position\\\":\\\"0\\\",\\n							\\\"quantity\\\":1,\\n							\\\"list\\\":\\\"product\\\",\\n							\\\"url\\\":\\\"\\\",\\n							\\\"price\\\":\\\"99.00\\\"\\n						});\\n					});\\n				</script>\\n\",\n			\"settings\":\n			{\n				\"buffer_size\": 979,\n				\"line_ending\": \"Windows\",\n				\"name\": \"<script type=\\\"text/javascript\\\">\"\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/scss/bin/css/orders/history/_order-history-custom.scss\",\n			\"settings\":\n			{\n				\"buffer_size\": 19954,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"file\": \"override/classes/order/Order.php\",\n			\"settings\":\n			{\n				\"buffer_size\": 5434,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"file\": \"config/defines.inc.php\",\n			\"settings\":\n			{\n				\"buffer_size\": 7619,\n				\"line_ending\": \"Unix\"\n			}\n		},\n		{\n			\"file\": \"override/controllers/admin/AdminOrdersController.php\",\n			\"settings\":\n			{\n				\"buffer_size\": 149161,\n				\"line_ending\": \"Unix\"\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/gulpfile.js\",\n			\"settings\":\n			{\n				\"buffer_size\": 6577,\n				\"line_ending\": \"Windows\"\n			}\n		},\n		{\n			\"file\": \"themes/phoneshop/history.tpl\",\n			\"settings\":\n			{\n				\"buffer_size\": 3528,\n				\"line_ending\": \"Windows\"\n			}\n		}\n	],\n	\"build_system\": \"\",\n	\"build_system_choices\":\n	[\n	],\n	\"build_varint\": \"\",\n	\"command_palette\":\n	{\n		\"height\": 392.0,\n		\"last_filter\": \"Package Control: \",\n		\"selected_items\":\n		[\n			[\n				\"Package Control: \",\n				\"Package Control: Install Package\"\n			],\n			[\n				\"Package Control\",\n				\"Package Control: Install Package\"\n			],\n			[\n				\"Package Control: ins\",\n				\"Package Control: Install Package\"\n			],\n			[\n				\"Package Control: in\",\n				\"Package Control: Install Package\"\n			],\n			[\n				\"Package Control: install\",\n				\"Package Control: Install Package\"\n			],\n			[\n				\"Package Control: instal\",\n				\"Package Control: Install Package\"\n			]\n		],\n		\"width\": 432.0\n	},\n	\"console\":\n	{\n		\"height\": 126.0,\n		\"history\":\n		[\n			\"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)\"\n		]\n	},\n	\"distraction_free\":\n	{\n		\"menu_visible\": true,\n		\"show_minimap\": false,\n		\"show_open_files\": false,\n		\"show_tabs\": false,\n		\"side_bar_visible\": false,\n		\"status_bar_visible\": false\n	},\n	\"expanded_folders\":\n	[\n		\"/C/Users/luis/Dropbox/websites/httpdocs/airchaser/public/1-5-2016\"\n	],\n	\"file_history\":\n	[\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/programs/prestashop/prestashop_1.6.1.4/prestashop/themes/default-bootstrap/header.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/bower_components/components-font-awesome/scss/_variables.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/cheque/validation.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/footer.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/index.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/email/11-8-2016/email/gulpfile.babel.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/modules/_block-home-banner.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/controllers/admin/templates/orders/helpers/view/view.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/header.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/js/modules/crossselling/js/slick.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/js/modules/productscategory/js/productscategory.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/modules/_breadcrumbs.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/productscategory/productscategory.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/modules/_top-bar.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/gulpfile.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/bin/css/home/style-11172016.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/global-11172016.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockviewed/blockviewed.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/gsnippetsreviews/views/templates/hook/product-tab.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/gsnippetsreviews/views/templates/front/review-display.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/modules/_block-user-info.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/controller/FrontController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/crossselling/crossselling.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/modules/crossselling/crossselling.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockbestsellers/views/templates/hook/blockbestsellers-footer-products.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockbestsellers/views/templates/hook/blockbestsellers-home.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/bin/css/contact/global.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/bin/css/contact/style.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/breadcrumb.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/_global-phoneshop.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/bin/css/home/_custom-home.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/blockhomebanner/block-home-banner.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/product.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/blockhomebanner/blockhomebanner.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/crossselling/js/crossselling.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/js/modules/crossselling/js/crossselling.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/bower.json\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/blockproductcategories/blockproductcategories.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/controllers/front/ProductController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/programs/prestashop/prestashop_1.6.1.4/prestashop/classes/controller/FrontController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/reassurance.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockbestsellers/views/templates/hook/blockbestsellers-product-list-home.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockviewed/blockviewed-home.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/product11-15-2016.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/contact-form.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blocksearch/blocksearch-top.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/categoriestopmenu/categoriestopmenu.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/blockbestsellers/views/templates/hook/blockbestsellers.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/modules/_blockuserinfo.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/controllers/admin/AdminOrdersController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/gsnippetsreviews/views/templates/hook/product-tab-content.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/featured-products/b-8.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/config/settings.inc.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/amazon/aws/price-check/price.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/.htaccess\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/controllers/front/OrderController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/order/OrderPayment.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/order/Order.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/PrestaShopCollection.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/admin123/themes/default/template/controllers/orders/helpers/view/view.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/order-confirmation.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/order/OrderPayment.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/blockvideo/blockvideo-home.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/admin123/themes/default/template/controllers/orders/_documents.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/order/Order.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/referralprogram/views/templates/hook/my-account.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/my-account.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/scss/_settings.scss\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/addresses.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/modules/statslive/statslive.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/statslive/statslive.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/js/product.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/controller/FrontController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/controllers/front/CartController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/controllers/front/AuthController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/controllers/front/AuthController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/mailalerts/views/templates/hook/my-account.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/controllers/front/CategoryController.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/category.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/Customer.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/Category.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/Dispatcher.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/pdf/HTMLTemplateInvoice.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/xpower/amazon/vendor/seller.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/ProductSale.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/config/defines.inc.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/products-comparison.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/modules/blockbestsellers/blockbestsellers.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/gsnippetsreviews/views/templates/front/review-display.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/order/OrderCarrier.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/password.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/xpower/amazon/vendor/vendor.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/blockbestsellers/blockbestsellers.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/modules/freedeliverymanager/freedeliverymanager.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/removed/7-7-2016/Cart.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/Cart.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/Carrier.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/js/jquery/plugins/fancybox/jquery.fancybox.js\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/xpower/public/7-26-2016/public_html/wp-config.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/404.tpl\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/override/classes/Cart.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/sendtoafriend/mails/en/send_to_a_friend.txt\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/themes/phoneshop/modules/sendtoafriend/mails/en/send_to_a_friend.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/voucher.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/account.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/classes/Dispatcher.php\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/backoffice_order.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/backups/account.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/bankwire.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/cheque.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/contact.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/contact.html.bak\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/contact_form.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/credit_slip.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/download_product.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/employee_password.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/forward_msg.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/guest_to_customer.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/in_transit.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/log_alert.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/newsletter.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_canceled.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_changed.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_conf.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_customer_comment.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_merchant_comment.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/order_return_state.html\",\n		\"/C/Users/webmaster/Dropbox/websites/httpdocs/airchaser/public/1-5-2016/mails/en/outofstock.html\"\n	],\n	\"find\":\n	{\n		\"height\": 34.0\n	},\n	\"find_in_files\":\n	{\n		\"height\": 90.0,\n		\"where_history\":\n		[\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop ,-*node_modukes,-*bower_components\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop,-*node_modules,-*bower_components\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\gsnippetsreviews\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\front\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\hook\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\classes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\referralprogram\\\\views\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\\\\front\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\\\\controllers\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\mails\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\classes\\\\pdf\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\classes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\\\\front\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\classes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\\\\admin\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\paypalusa\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\\\\controllers\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\\\\admin\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\override\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\",\n			\"C:\\\\Users\\\\webmaster\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\mails\\\\en\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\pdf\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\blockwishlist\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\gsnippetsreviews\\\\views\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\\\\controllers\\\\orders\",\n			\",*.php,C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\controllers\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016,*.php\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016,*.tpl\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\classes\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\admin123\\\\themes\\\\default\\\\template\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\blocksearch\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\js\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\scss\\\\modules\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\gsnippetsreviews\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\modules\\\\elevatezoom\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\hook\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\front\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\hook\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\front\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\\\\modules\\\\gsnippetsreviews\\\\views\\\\templates\\\\hook\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\",\n			\"c:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\\\\themes\\\\phoneshop\",\n			\"C:\\\\Users\\\\Edgar\\\\Dropbox\\\\websites\\\\httpdocs\\\\airchaser\\\\public\\\\1-5-2016\"\n		]\n	},\n	\"find_state\":\n	{\n		\"case_sensitive\": true,\n		\"find_history\":\n		[\n			\".history\",\n			\"Merchandise return\\n\",\n			\"bloc_adresses\",\n			\"history\",\n			\".my-account-links\",\n			\"history\",\n			\".header\",\n			\"address_title\",\n			\"address item\",\n			\"Billing\",\n			\"Merchandise\",\n			\"returnOrderMessage\",\n			\"#block-order-detail\",\n			\"make\",\n			\"rma\",\n			\"order history\",\n			\"crossselling_content\",\n			\"js\",\n			\"global\",\n			\"setmedia\",\n			\"customer has rated the\",\n			\"anchorReview\",\n			\"hook_product_tab\",\n			\"contain-to-grid\",\n			\".top-bar-search\",\n			\".home :not(.fixed) .top-bar-search\",\n			\"top-bar-search\",\n			\"search-block-wrapper\",\n			\"small-4\",\n			\"small-4 small-offset-2 medium-4 medium-offset-2\",\n			\"small-4 small-offset-2 medium-4 medium-offset-2 large-3 large-offset-0 columns\",\n			\"section\",\n			\"wa\",\n			\"warr\",\n			\"product-description\",\n			\"row\",\n			\"medium-5 columns\",\n			\"row\",\n			\"medium-5 columns\",\n			\"alert\",\n			\"not\",\n			\"video\",\n			\"rate this product\",\n			\"Read what people\",\n			\"The customer has rated the product but has not posted a review, or the review is pending moderation\",\n			\"air\",\n			\"refere\",\n			\"9\",\n			\"payment\",\n			\"reference\",\n			\"mail\",\n			\"reference\",\n			\"order_payment\",\n			\"insert\",\n			\"refere\",\n			\"size\",\n			\"Payments block\",\n			\"getOrderPaymentCollection\",\n			\"formAddPaymentPanel\",\n			\"refer\",\n			\"order_reference\",\n			\"execute\",\n			\"insert\",\n			\"page\",\n			\"images\",\n			\"mailalerts\",\n			\"my person\",\n			\"referral acc\",\n			\"addJS\",\n			\"PS_REGISTRATION_PROCESS_TYPE\",\n			\"$this\",\n			\"hook\",\n			\"equal\",\n			\"equali\",\n			\"Create your account\",\n			\"about_us\",\n			\"groups\",\n			\"$groups\",\n			\"findCombination\",\n			\"console\",\n			\"findCombination\",\n			\"updateColorSelect\",\n			\"findCombination\",\n			\"current\",\n			\"combination\",\n			\"current\",\n			\"currency\",\n			\"curren\",\n			\"name\",\n			\"seo\",\n			\"SCHEMA OF URLS\",\n			\"itemprop=\\\"pr\",\n			\"click\",\n			\"click for\",\n			\"succes\",\n			\"More details\",\n			\"price\",\n			\"The customer has rated the product but has not posted a review, or the review is pending moderation\",\n			\"order_reference\",\n			\"order_reference \",\n			\"er\",\n			\"err\",\n			\"error\",\n			\"tool\",\n			\"media\",\n			\"product .accessories_block .products_block .exclusive\",\n			\".product .accessories_block .products_block .button, .product .accessories_block .products_block .exclusive\",\n			\"cache_best_sellers\",\n			\"print_r\",\n			\"margin: 0 0 0 5px;position: static;\",\n			\"\\n    margin: 0 0 0 5px;\\n    position: static;\",\n			\".products_block\",\n			\".product\",\n			\".product \",\n			\"comparison_reduction\",\n			\"price\",\n			\"fea\",\n			\"Product Comparison\",\n			\"ON SALE\",\n			\"feature\",\n			\"ps_fea\",\n			\"ps_feat\",\n			\"feat\",\n			\"big\",\n			\"thickbox\",\n			\"fancybox\",\n			\"xlarge\",\n			\"displayImage\"\n		],\n		\"highlight\": true,\n		\"in_selection\": false,\n		\"preserve_case\": false,\n		\"regex\": false,\n		\"replace_history\":\n		[\n			\"small-4 small-offset-2 medium-3 medium-offset-3\",\n			\"clearfix\",\n			\" \",\n			\"\",\n			\"medium-4\",\n			\"large-3 large-offset-0\",\n			\"medium-5\",\n			\"medium-5 medium-offset-1\",\n			\"medium-5\",\n			\"medium-5 medium-offset-1\",\n			\"medium-6\",\n			\"medium-6 medium-offset-0\",\n			\"medium-6\",\n			\"small-4\",\n			\"small-4 small-offset-2\",\n			\"cms\",\n			\"gray-over-yellow\",\n			\"\",\n			\"white-over-yellow\",\n			\" \",\n			\"textarea\",\n			\"\",\n			\"blockProductCategories\",\n			\"medium\",\n			\"\",\n			\"Pets\",\n			\"Centrifugal\",\n			\".\",\n			\"\",\n			\"{\",\n			\"{\\\\n\\\\t\",\n			\"{\\\\n\",\n			\";\\\\n\\\\t\",\n			\";\\\\n\",\n			\"\\\\n}\",\n			\"{\\\\n\\\\t\",\n			\"{\\\\n\",\n			\";\\\\n\",\n			\";/n\",\n			\"a--grey a-border--grey\",\n			\"$specials\",\n			\"$table-new-bg\",\n			\"\",\n			\"/img/featured-products/xpower-b-8/\",\n			\"/img/featured-products/spower-b-8/\",\n			\"/img/featured-products/spower-b-8\",\n			\"$clean-grey\",\n			\"\",\n			\"\\\"/video/xpower\",\n			\"\",\n			\"</div>\",\n			\"<div\",\n			\"</div>\",\n			\"<div \",\n			\"border-radius:$global-radius;\",\n			\"cart-prices-wrapper\",\n			\"</div>\",\n			\"<div\",\n			\"</span>\",\n			\"<span\",\n			\"\",\n			\"$wishlist_products\",\n			\"<div\",\n			\"medium-6 large-3\",\n			\".create-account_form\",\n			\".cart_summary\",\n			\"\",\n			\".short_description_block\",\n			\".accessories_block\",\n			\"border-bottom: 1px solid $lighter-gray;\",\n			\"border-top:1px solid $lighter-gray;\",\n			\"//border-bottom-color:$lighter-gray;\",\n			\"border:1px solid $lighter-gray;\",\n			\"$primary-color\",\n			\".social-block\",\n			\"large-3 columns\",\n			\"</li>\",\n			\"<li\",\n			\".footer\",\n			\"\",\n			\"$primary-color\",\n			\".footer\",\n			\"footer\",\n			\".footer\",\n			\"\\\\\\\\\",\n			\"/\",\n			\"\",\n			\"productscategory\",\n			\"double-line\",\n			\"$secondary-color\",\n			\"$white\",\n			\"$smarty.ajax_allowed\",\n			\"$lighter-gray\",\n			\"$secondary-color\",\n			\"$white\",\n			\"$darker-gray\",\n			\"\",\n			\"/modules/smartblog/images\",\n			\"/themes/phoneshop/img\",\n			\"\",\n			\"/\",\n			\"\\\\\\\\\"\n		],\n		\"reverse\": false,\n		\"show_context\": true,\n		\"use_buffer2\": true,\n		\"whole_word\": false,\n		\"wrap\": true\n	},\n	\"groups\":\n	[\n		{\n			\"selected\": 0,\n			\"sheets\":\n			[\n				{\n					\"buffer\": 0,\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 4238,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								2675,\n								2675\n							]\n						],\n						\"settings\":\n						{\n							\"auto_name\": \"Introduction to Fans . . . . . . . . . . . . . . .\",\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/Text/Plain text.tmLanguage\"\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 0,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 1,\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 69,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								69,\n								69\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"detect_indentation\": false,\n							\"line_numbers\": false,\n							\"output_tag\": 1,\n							\"result_base_dir\": \"\",\n							\"result_file_regex\": \"^([^ 	].*):$\",\n							\"result_line_regex\": \"^ +([0-9]+):\",\n							\"scroll_past_end\": true,\n							\"syntax\": \"Packages/Default/Find Results.hidden-tmLanguage\"\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 26.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 11,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 2,\n					\"file\": \"themes/phoneshop/scss/bin/css/orders/history/style.scss\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 1537,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								488,\n								488\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/Text/Plain text.tmLanguage\"\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 5,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 3,\n					\"file\": \"themes/phoneshop/js/history.js\",\n					\"semi_transient\": true,\n					\"settings\":\n					{\n						\"buffer_size\": 6254,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								1199,\n								1199\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/JavaScript/JavaScript.sublime-syntax\",\n							\"translate_tabs_to_spaces\": false\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 2,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 4,\n					\"file\": \"themes/phoneshop/order-detail.tpl\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 22867,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								377,\n								379\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/HTML/HTML.sublime-syntax\",\n							\"translate_tabs_to_spaces\": false\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 1,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 5,\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 1705,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								813,\n								813\n							]\n						],\n						\"settings\":\n						{\n							\"auto_indent\": false,\n							\"syntax\": \"Packages/Text/Plain text.tmLanguage\",\n							\"tab_width\": 2,\n							\"word_wrap\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 3,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 6,\n					\"file\": \"themes/phoneshop/header.tpl\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 10864,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								1882,\n								1882\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/HTML/HTML.sublime-syntax\",\n							\"translate_tabs_to_spaces\": false\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 117.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 8,\n					\"type\": \"text\"\n				}\n			]\n		},\n		{\n			\"selected\": 1,\n			\"sheets\":\n			[\n				{\n					\"buffer\": 7,\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 979,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								566,\n								566\n							]\n						],\n						\"settings\":\n						{\n							\"auto_name\": \"<script type=\\\"text/javascript\\\">\",\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/Text/Plain text.tmLanguage\",\n							\"translate_tabs_to_spaces\": false\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 13,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 8,\n					\"file\": \"themes/phoneshop/scss/bin/css/orders/history/_order-history-custom.scss\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 19954,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								9906,\n								9906\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/Text/Plain text.tmLanguage\",\n							\"tab_size\": 2,\n							\"translate_tabs_to_spaces\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 6448.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 4,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 9,\n					\"file\": \"override/classes/order/Order.php\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 5434,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								1212,\n								1212\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/PHP/PHP.sublime-syntax\",\n							\"tab_size\": 4,\n							\"translate_tabs_to_spaces\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 10,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 10,\n					\"file\": \"config/defines.inc.php\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 7619,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								1644,\n								1644\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/PHP/PHP.sublime-syntax\",\n							\"tab_size\": 4,\n							\"translate_tabs_to_spaces\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 12,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 11,\n					\"file\": \"override/controllers/admin/AdminOrdersController.php\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 149161,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								9506,\n								9506\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/PHP/PHP.sublime-syntax\",\n							\"tab_size\": 4,\n							\"translate_tabs_to_spaces\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 0.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 9,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 12,\n					\"file\": \"themes/phoneshop/gulpfile.js\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 6577,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								3527,\n								3527\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/JavaScript/JavaScript.sublime-syntax\",\n							\"tab_size\": 2,\n							\"translate_tabs_to_spaces\": true,\n							\"word_wrap\": true\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 1092.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 7,\n					\"type\": \"text\"\n				},\n				{\n					\"buffer\": 13,\n					\"file\": \"themes/phoneshop/history.tpl\",\n					\"semi_transient\": false,\n					\"settings\":\n					{\n						\"buffer_size\": 3528,\n						\"regions\":\n						{\n						},\n						\"selection\":\n						[\n							[\n								1068,\n								1068\n							]\n						],\n						\"settings\":\n						{\n							\"color_scheme\": \"Packages/User/Color Highlighter/themes/Monokai.tmTheme\",\n							\"syntax\": \"Packages/HTML/HTML.sublime-syntax\",\n							\"translate_tabs_to_spaces\": false\n						},\n						\"translation.x\": 0.0,\n						\"translation.y\": 156.0,\n						\"zoom_level\": 1.0\n					},\n					\"stack_index\": 6,\n					\"type\": \"text\"\n				}\n			]\n		}\n	],\n	\"incremental_find\":\n	{\n		\"height\": 21.0\n	},\n	\"input\":\n	{\n		\"height\": 31.0\n	},\n	\"layout\":\n	{\n		\"cells\":\n		[\n			[\n				0,\n				0,\n				1,\n				1\n			],\n			[\n				1,\n				0,\n				2,\n				1\n			]\n		],\n		\"cols\":\n		[\n			0.0,\n			0.494978028877,\n			1.0\n		],\n		\"rows\":\n		[\n			0.0,\n			1.0\n		]\n	},\n	\"menu_visible\": true,\n	\"output.find_results\":\n	{\n		\"height\": 0.0\n	},\n	\"pinned_build_system\": \"\",\n	\"project\": \"airchaser.sublime-project\",\n	\"replace\":\n	{\n		\"height\": 62.0\n	},\n	\"save_all_on_build\": true,\n	\"select_file\":\n	{\n		\"height\": 0.0,\n		\"last_filter\": \"\",\n		\"selected_items\":\n		[\n		],\n		\"width\": 0.0\n	},\n	\"select_project\":\n	{\n		\"height\": 0.0,\n		\"last_filter\": \"\",\n		\"selected_items\":\n		[\n		],\n		\"width\": 0.0\n	},\n	\"select_symbol\":\n	{\n		\"height\": 392.0,\n		\"last_filter\": \"\",\n		\"selected_items\":\n		[\n		],\n		\"width\": 392.0\n	},\n	\"selected_group\": 0,\n	\"settings\":\n	{\n	},\n	\"show_minimap\": true,\n	\"show_open_files\": false,\n	\"show_tabs\": true,\n	\"side_bar_visible\": true,\n	\"side_bar_width\": 327.0,\n	\"status_bar_visible\": true,\n	\"template_settings\":\n	{\n	}\n}\n",
+			"settings":
+			{
+				"buffer_size": 52013,
+				"line_ending": "Windows",
+				"name": "{"
+			}
+		},
+		{
+			"file": "bin/css/homepage/critical/styles.min.css.php",
+			"settings":
+			{
+				"buffer_size": 16603,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bin/css/homepage/uncss/missing/style.scss",
+			"settings":
+			{
+				"buffer_size": 39770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 29363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/partials/services.php",
+			"settings":
+			{
+				"buffer_size": 2561,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 28521,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 10511,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials"
+	],
+	"file_history":
+	[
+		"/C/Users/luis/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bin/css/homepage/uncss/missing/style.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bin/css/homepage/uncss/complete/style.css",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bin/css/homepage/uncss/style.css",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/scss/bin/css/homepage/style-v5.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bin/css/homepage/uncss/missing/_top-bar.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bin/css/homepage/style-v5.css",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/scss/bin/css/homepage/style.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/plugins/wp-spamshield/wp-spamshield.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/projects3.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/projects.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/catalog.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/about.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-includes/js/wp-emoji.js",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/genesis/lib/structure/header.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/include/widgets/widget-social_icons.php",
+		"/C/Users/luis/Downloads/google-authenticator-per-user-prompt.0.6/google-authenticator-per-user-prompt/google-authenticator-per-user-prompt.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/functions.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/circularcontentcarousel/js/jquery.contentcarousel.js",
+		"/C/Users/luis/Downloads/disable-embeds/disable-embeds/disable-embeds.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/performance/performance.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/circularcontentcarousel/js/jquery.mousewheel.js",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/scss/style.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/services.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/scss/lib/css/partials/animations/form.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/scss/_settings.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/style.css",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/js/app.js",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/footer.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/circularcontentcarousel/scss/circularcontentcarousel.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/bxslider-4/src/scss/jquery.bxslider.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/tap-titles.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/header.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/recent-posts3.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/homepage-template.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/circularcontentcarousel/index.html",
+		"/C/Users/luis/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/luis/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/contact.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/social.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/js/app.js",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/partials/recent-posts.php",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/gulpfile.js",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/blueimp-gallery/scss/blueimp-gallery.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/foundation-icons/README.markdown",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/foundation-icons/.bower.json",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/foundation-icons/foundation_icons_general/sass/_settings.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/bower_components/foundation-icons/foundation_icons_general/sass/general_foundicons.scss",
+		"/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/themes/helios/lib/functions/top-bar.php",
+		"/C/Users/luis/Dropbox/websites/Conf Files/7-2-2016/httpd.conf",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/Users/luis/Dropbox/office/pw/personalpws.sql"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\plugins\\wp-spamshield",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\plugins",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\helios\\lib\\partials",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\helios",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\helios\\include",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\plugins\\jetpack",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\plugins\\wordpress-seo",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\genesis",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\helios",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\helios",
+			"C:\\Users\\luis\\Dropbox\\websites\\httpdocs\\lmseo\\public\\7-6-2015\\wp-content\\themes\\luis"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"monokai",
+			"mono",
+			"monoi",
+			"sasshome",
+			"images",
+			"images/lmseo-01-04-15.png ",
+			"enqueue_scripts",
+			"wpss-jscripts-ftr",
+			"register",
+			"insert_footer_js",
+			"commentform",
+			"nosrcipt",
+			"/*\n",
+			"http://lmseo/wp-content/themes/helios/bin/css/homepage/style.css\n",
+			"http://lmseo/wp-content/themes/helios/bin/css/homepage/style.css",
+			"<noscript><link href=\"http://lmseo/wp-content/themes/helios/bin/css/homepage/style.css\" rel=\"stylesheet\"></noscript>",
+			"<noscript><link href=\"http://lmseo/wp-content/themes/helios/bin/css/homepage/style.css\" rel=\"stylesheet\"></noscript>\n",
+			"add_action",
+			"'/images/",
+			"images/",
+			"Jetpack::is_development_version()",
+			"register",
+			"jetpack_css",
+			"wpseo_og",
+			"wpseo_twitter",
+			"wpseo_og",
+			"wpseo_head",
+			"wpseo_json_ld_search_url",
+			" \n ",
+			"wpseo_json_ld_search_url",
+			"header.png",
+			"header.png) no-repeat !important; }",
+			".site-header {",
+			"css()",
+			".zp_social_icons {  overflow: hidden;  }",
+			"zp_social_icons",
+			"print_emoji_detection_script",
+			"_wpemojiSettings",
+			"is_wp_login",
+			"wp_is_login",
+			"year",
+			"data",
+			"exports",
+			".about",
+			".ca-container",
+			"abide",
+			"bower_components/circularcontentcarousel/images/",
+			"url",
+			"loadCSS",
+			"lmseo",
+			"catalog",
+			"transit",
+			"transi",
+			".ca-content ul li a",
+			"000",
+			".ca-content ul li a",
+			".ca-close",
+			".ca-content-wrapper",
+			"header",
+			"top-bar",
+			"'images/",
+			"footer",
+			".services",
+			"#f2f2f2",
+			".contact",
+			".about",
+			"about-title",
+			".about",
+			".about, .social",
+			"padding",
+			".box",
+			".services",
+			"hr",
+			"proj",
+			"projets",
+			"services-title",
+			"services",
+			"section-padd",
+			".services",
+			".service{",
+			".box",
+			".services",
+			"1000",
+			"real-es",
+			"real",
+			"real-es",
+			"<ul>",
+			"<h5 class=\"center\">",
+			"<h5>",
+			"<i class=\"fa fa-times\" aria-hidden=\"true\"></i>",
+			"h6",
+			"pair",
+			"(?:<p>)([\\s\\S]+?)(?:</p>)",
+			"()",
+			"(?)",
+			"(?=)",
+			"(?=&)",
+			"(?&lt;=>)(.+?)(?=&lt;)",
+			"h5",
+			">close",
+			"height",
+			"<a href=\"#\" class=\"ca-close\">close</a>",
+			"ca-content large-6 medium-6 small-12",
+			"21",
+			"opacity",
+			"wrapper",
+			"ca-content large-6 medium-6 small-12",
+			"wrapper",
+			"660",
+			"</h4>",
+			"<h4>",
+			"<span class=\"ca-quote\">&ldquo;</span>",
+			"large-4",
+			"width",
+			"330",
+			"../images/",
+			"css",
+			"\"js/",
+			"app",
+			"links",
+			"#111",
+			"#111111",
+			"#989898",
+			"#777",
+			"#777777",
+			"#222",
+			"#222222",
+			"#333"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'/bin/images/",
+			"/wp-content/themes/helios/bower_components/circularcontentcarousel/images/",
+			"'bower_components/bxslider-4/src/images/",
+			"$white-light",
+			"<ul class=\"no-bullets\">",
+			"<h5 class=\"text-center\">",
+			"<h5 class=\"center\">",
+			"<i class=\"fa fa-times fa-2x\" aria-hidden=\"true\"></i>",
+			"h5",
+			"",
+			"><i class=\"fa fa-times\" aria-hidden=\"true\"></i>",
+			"<div class=\"large-12 columns\">\n                      <div class=\"more-centered-button-wrapper\">\n                        <a href=\"#\" class=\"ca-more home-button grey-button xlarge-button\">Read More</a>\n                      </div>\n                    </div>",
+			"ca-content large-12 medium-12 small-12",
+			"",
+			"large-6",
+			"bower_components/circularcontentcarousel/images/",
+			"\"/wp-content/themes/helios/bower_components/circularcontentcarousel/js/",
+			"$midnight",
+			"$aluminum",
+			"$fosil",
+			"$jet",
+			"$oil",
+			"$steel",
+			"$tuatara",
+			"",
+			"$blueimp-path + \"",
+			"$blueimp-path",
+			"/wp-content/themes/helios/bower_components/blueimp-gallery/img/",
+			"$gainsboro",
+			"$white",
+			"$blue",
+			"$gainsboro",
+			"{\n",
+			"{",
+			"{\n",
+			"; \n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/plugins/jetpack/class.jetpack.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 16646.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/luis/Dropbox/websites/httpdocs/lmseo/public/7-6-2015/wp-content/plugins/wordpress-seo/frontend/class-json-ld.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "homepage-template.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1088,
+								1088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46130,
+								46137
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 374225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bin/css/homepage/critical/styles.min.css.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 16603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3173,
+								3173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bin/css/homepage/uncss/missing/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39728,
+								39728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7789.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1281.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/partials/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20796,
+								24864
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 13821.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5219,
+								5219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1521.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lmseo.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

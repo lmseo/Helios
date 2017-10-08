@@ -1,4 +1,9 @@
 <?php
+/** Force the full width layout layout on the Portfolio page */
+add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
+/** Add support for structural wraps */
+add_theme_support( 'genesis-structural-wraps', array( 'header', 'nav', 'subnav', 'inner', 'footer-widgets', 'footer' ) );
+
 
 add_action( 'genesis_meta', 'streamline_home_genesis_meta' );
 /**
@@ -36,31 +41,4 @@ function streamline_home_loop_helper() {
 	}
 }
 //add_theme_support('genesis-footer-widgets');
-
-remove_action( 'genesis_sidebar', 'genesis_do_sidebar' );
-remove_action( 'genesis_loop', 'genesis_do_loop' );
-add_action( 'genesis_before_content_sidebar_wrap', 'lmseo_homepage_content' );
-function lmseo_homepage_content() {
-	$out .='';
-	require_once ( get_stylesheet_directory() . '/lib/partials/featured-banner.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/tap-titles.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/catalog.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/projects.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/social.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/services.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/recent-posts.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/contact.php' );
-	require_once ( get_stylesheet_directory() . '/lib/partials/about.php' );
-	
-	//require_once ( get_stylesheet_directory() . '/lib/partials/header.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/featured-banner.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/tap-titles.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/projects.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/social.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/recent-posts.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/contact.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/about.php' );
-	//require_once ( get_stylesheet_directory() . '/lib/partials/footer.php' );
-	echo $out;
-}
 genesis();

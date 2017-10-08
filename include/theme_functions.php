@@ -10,6 +10,13 @@ add_image_size( '3col', 306, 240, TRUE  );
 add_image_size( 'portfolio_single', 980, 737, TRUE  );
 
 
+/*
+*Check if the current page is the login page.
+*/
+function is_wp_login() {
+	return 'wp-login.php' == basename( $_SERVER['SCRIPT_NAME'] );
+}
+
 /**
  * Get portfolio items values ( width, height, columns and number of items )
  * @returns an array of values (width, height, column class) to be used in the template 

@@ -2,27 +2,29 @@
 $out.='<section class="tab-titles">
   <div class="row">
     <div class="icon-bar five-up">
-    <a class="item" href="#projects">
-      <img src="http://foundation.zurb.com/docs/assets/img/images/fi-home.svg">
-      <label>Projects</label>
-    </a>
-    <a class="item" href="#recent-posts">
-      <img src="http://foundation.zurb.com/docs/assets/img/images/fi-bookmark.svg">
-      <label><span class="hide-for-small title-overflow-text">Recent</span> Posts</label>
-    </a>
-    <a class="item" href="#about">
-      <img src="http://foundation.zurb.com/docs/assets/img/images/fi-info.svg">
-      <label>About</label>
-    </a>
-    <a class="item" href="#contact">
-      <img src="http://foundation.zurb.com/docs/assets/img/images/fi-mail.svg">
-      <label>Contact <span class="hide-for-small title-overflow-text">Us</span></label>
-    </a>
-    <a class="item" href="#social">
-      <img src="http://foundation.zurb.com/docs/assets/img/images/fi-like.svg">
-      <label>Connect <span class="show-for-large-up title-overflow-text">With Us</span></label>
-    </a>
-  </div>
+      <a class="item" href="#projects" onclick="javascript:void(0);$.scrollTo(\'#projects\', 1200);" >
+        <i class="fa fa-home fa-2x"></i>
+        <label>Projects</label>
+      </a>
+      <a class="item" href="#services" onclick="javascript:void(0);$.scrollTo(\'#services\', 1200);">
+        <i class="fa fa-thumbs-up fa-2x"></i>
+        <label>Services</label>
+      </a>
+      <a class="item" href="#recent-posts" onclick="javascript:void(0);$.scrollTo(\'#recent-posts\', 1200);" >
+        <i class="fa fa-pencil-square-o fa-2x"></i>
+        
+        <label><span class="hide-for-small title-overflow-text">Recent</span> Posts</label>
+      </a>
+      <a class="item" href="#about" onclick="javascript:void(0);$.scrollTo(\'#about\', 1200);" >
+        <i class="fa fa-info-circle fa-2x"></i>
+        <label>About</label>
+      </a>
+      <a class="item" href="#contact" onclick="javascript:void(0);$.scrollTo(\'#contact\', 1200);">
+        <i class="fa fa-envelope fa-2x"></i>
+        <label>Contact <span class="hide-for-small title-overflow-text">Us</span></label>
+      </a>
+      
+    </div>
   </div>
 </section>';
 ?>

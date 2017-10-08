@@ -10,8 +10,8 @@ $out.='<div class="small-12">
           <a class="large home-button expand" href="#">
             Chat With Us
           </a>
-           <a class="large home-button expand" href="tel:+18183966868">
-            818.396.6868
+           <a class="large home-button expand" href="tel:+2133210784">
+            213.321.0784
           </a>
         </div>
         <div class="featured-content">

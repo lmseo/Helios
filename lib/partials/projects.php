@@ -9,7 +9,7 @@ $out.='<a class="anchor" id="projects"></a><section class="projects">
         <div class="large-12 columns">
           <div class="row project-item">
             <div class="large-6 columns">
-                <img src="'. get_stylesheet_directory_uri(). '/images/projects/eopiates/eopiates.png">
+                <img src="'. get_stylesheet_directory_uri(). '/bin/images/projects/eopiates/eopiates.png">
             </div>
             <div class="large-6 columns">
               <h2>eOpiates.com</h2>
@@ -37,7 +37,7 @@ $out.='<a class="anchor" id="projects"></a><section class="projects">
               </ul>
             </div>
             <div class="large-6 columns">
-                <img src="'.get_stylesheet_directory_uri().'/images/projects/eopiates/instant-search.jpg">
+                <img src="'.get_stylesheet_directory_uri().'/bin/images/projects/eopiates/instant-search.jpg">
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ $out.='<a class="anchor" id="projects"></a><section class="projects">
         <div class="large-12 columns">
           <div class="row project-item">
             <div class="large-6 columns">
-                <img src="'.get_stylesheet_directory_uri().'/images/projects/lmseo/home.jpg">
+                <img src="'.get_stylesheet_directory_uri().'/bin/images/projects/lmseo/home.jpg">
             
             </div>
             <div class="large-6 columns">       
@@ -67,7 +67,7 @@ $out.='<a class="anchor" id="projects"></a><section class="projects">
         <hr>
         <div class="large-12 columns">
             <div class="more-centered-button-wrapper">
-              <a href="/services/" class="home-button project-button">More Projects</a>
+              <a href="/services/" class="home-button xlarge-button">More Projects</a>
             </div>
         </div>
       </div>
